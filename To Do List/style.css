@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(37, 37, 37);
+    max-width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#Logo {
+    color: rgb(170, 54, 164);
+    font-size: 60px;
+    width: 100%;
+}
+
+input {
+    height: 35px;
+    border-radius: 10px;
+    width: 75%;
+    color: white;
+    background-color: rgb(78, 77, 77);
+    border: 2px solid rgb(170, 54, 164);
+    outline: none;
+    cursor: alias;
+
+}
+
+
+
+button {
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: rgb(170, 54, 164);
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+button:hover {
+    background-color: rgb(158, 45, 152);
+    height: 45px;
+    transition: .5s;
+}
+
+button:active {
+    background-color: rgb(211, 64, 204);
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+   
+}
+
+li {
+    background-color: rgb(158, 45, 152);
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0;
+
+}
+
+li:hover{
+    padding: 20px;
+    transition: .5s;
+    
+}
+
+span{
+    cursor: pointer;
+}
